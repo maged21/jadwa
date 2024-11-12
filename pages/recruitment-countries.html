@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="شركة جدوى للاستقدام" />
+    <meta
+      name="description"
+      content="شركة جدوى للاستقدام هي شركة رائدة في توفير خدمات استقدام العمالة المنزلية والشركات في المملكة العربية السعودية. نضمن لكم استقدام أفضل الكوادر المدربة بأعلى مستوى من الجودة والاحترافية."
+    />
+    <meta
+      name="keywords"
+      content="جدوى, استقدام, عمالة منزلية, شركات, السعودية, توظيف, خدمات"
+    />
+    <meta name="author" content="Jadwa Recruitment" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.jadwa-ksa.com" />
+    <meta property="og:title" content="شركة جدوى للاستقدام" />
+    <meta
+      property="og:description"
+      content="شركة جدوى للاستقدام هي شركة رائدة في توفير خدمات استقدام العمالة المنزلية والشركات في المملكة العربية السعودية. نضمن لكم استقدام أفضل الكوادر المدربة بأعلى مستوى من الجودة والاحترافية."
+    />
+    <meta
+      property="og:image"
+      content="https://www.jadwa-ksa.com/images/logo/logo-white.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.jadwa-ksa.com" />
+    <meta property="twitter:title" content="شركة جدوى للاستقدام" />
+    <meta
+      property="twitter:description"
+      content="شركة جدوى للاستقدام هي شركة رائدة في توفير خدمات استقدام العمالة المنزلية والشركات في المملكة العربية السعودية. نضمن لكم استقدام أفضل الكوادر المدربة بأعلى مستوى من الجودة والاحترافية."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.jadwa-ksa.com/images/logo/logo-white.png"
+    />
+
+    <title>Jadwa</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo/jadwa-logo.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="arabic">
+    <!-- header-section -->
+    <section>
+      <header class="desktop-header">
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container">
+            <!-- Logo -->
+            <a
+              class="navbar-brand"
+              href="/index.html"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="500"
+            >
+              <img
+              src="../images/logo/jadwa-logo.png"
+              alt="Jadwa Logo"
+              loading="lazy"
+              />
+              <span class="d-none">Jadwa Recruitment</span>
+            </a>
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav mb-2 mx-auto mb-lg-0">
+                <li class="nav-item" data-aos="fade-up" data-aos-delay="50">
+                  <a class="nav-link" href="/pages/about.html">من نحن</a>
+                </li>
+                <li class="nav-item" data-aos="fade-up" data-aos-delay="150">
+                  <a class="nav-link" href="/pages/services.html">الخدمات</a>
+                </li>
+                <li class="nav-item" data-aos="fade-up" data-aos-delay="250">
+                  <a class="nav-link" href="/pages/recruitment-countries.html"
+                    >دول الاستقدام</a
+                  >
+                </li>
+                <li class="nav-item" data-aos="fade-up" data-aos-delay="350">
+                  <a class="nav-link" href="/pages/contact.html">اتصل بنا</a>
+                </li>
+              </ul>
+            </div>
+            <a
+              class="nav-link language-switch"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              href="#"
+              >EN</a
+            >
+          </div>
+        </nav>
+      </header>
+
+      <!-- Mobile Header -->
+      <header class="mobile-header">
+        <a href="/index.html"
+          ><img
+          src="../images/logo/jadwa-logo.png"
+          alt="Logo"
+          class="logo"
+          loading="lazy"
+        /></a>
+        <i
+          class="fas fa-bars hamburger-icon"
+          onclick="toggleMenu()"
+          id="openIcon"
+        ></i>
+        <i
+          class="fas fa-times hamburger-icon"
+          onclick="toggleMenu()"
+          id="closeIcon"
+          style="display: none"
+        ></i>
+      </header>
+
+      <!-- Side Menu -->
+      <nav class="side-menu" id="sideMenu">
+        <ul>
+          <li><a href="/pages/about.html">من نحن</a></li>
+          <li><a href="/pages/services.html">الخدمات</a></li>
+          <li><a href="/pages/recruitment-countries.html">دول الاستقدام</a></li>
+          <li><a href="/pages/contact.html">اتصل بنا</a></li>
+          <a class="nav-link language-switch text-center" href="#">EN</a>
+        </ul>
+      </nav>
+
+      <!-- Overlay -->
+      <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+    </section>
+
+    <!-- breadcrumb -->
+    <section
+      class="breadcrumb-section recruitment-breadcrumb"
+      data-aos="fade-in"
+      data-aos-duration="1000"
+      data-aos-delay="150"
+    >
+      <div class="container">
+        <div class="breadcrumb-content">
+          <h2
+            class="breadcrumb-title"
+            data-aos="fade-left"
+            data-aos-duration="1200"
+          >
+            دول الاستقدام
+          </h2>
+        </div>
+      </div>
+      <img
+        src="/images/logo/logo-white.png"
+        alt="logo"
+        loading="lazy"
+        class="hero-logo"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      />
+    </section>
+
+    <!-- recruitment countries -->
+    <section class="recruitment-countires">
+      <div class="container">
+        <div class="desktop-recruitment">
+          <div class="row justify-content-between">
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="100"
+            >
+              <img
+                src="https://flagcdn.com/w320/pk.png"
+                alt="Pakistan"
+                loading="lazy"
+              />
+              <p>باكستان</p>
+            </div>
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="150"
+            >
+              <img
+                src="https://flagcdn.com/w320/in.png"
+                alt="India"
+                loading="lazy"
+              />
+              <p>الهند</p>
+            </div>
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="200"
+            >
+              <img
+                src="https://flagcdn.com/w320/bd.png"
+                alt="Bangladesh"
+                loading="lazy"
+              />
+              <p>بنجلاديش</p>
+            </div>
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="250"
+            >
+              <img
+                src="https://flagcdn.com/w320/ug.png"
+                alt="Uganda"
+                loading="lazy"
+              />
+              <p>أوغندا</p>
+            </div>
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="300"
+            >
+              <img
+                src="https://flagcdn.com/w320/ke.png"
+                alt="Kenya"
+                loading="lazy"
+              />
+              <p>كينيا</p>
+            </div>
+          </div>
+          <div class="row justify-content-between mt-4">
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="400"
+            >
+              <img
+                src="https://flagcdn.com/w320/ph.png"
+                alt="Philippines"
+                loading="lazy"
+              />
+              <p>الفلبين</p>
+            </div>
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="450"
+            >
+              <img
+                src="https://flagcdn.com/w320/lk.png"
+                alt="Sri Lanka"
+                loading="lazy"
+              />
+              <p>سيريلانكا</p>
+            </div>
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="550"
+            >
+              <img
+                src="https://flagcdn.com/w320/bi.png"
+                alt="Burundi"
+                loading="lazy"
+              />
+              <p>بوروندي</p>
+            </div>
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="600"
+            >
+              <img
+                src="https://flagcdn.com/w320/et.png"
+                alt="Ethiopia"
+                loading="lazy"
+              />
+              <p>أثيوبيا</p>
+            </div>
+            <div
+              class="col-md-2 col-4 country-item"
+              data-aos="fade-in"
+              data-aos-delay="650"
+            >
+              <img
+                src="https://flagcdn.com/w320/mr.png"
+                alt="Mauritania"
+                loading="lazy"
+              />
+              <p>موريتانيا</p>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile View -->
+        <div
+          class="container swiper-container mobile-recruitment"
+          data-aos="fade-down"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
+          <div class="swiper-wrapper mobile-recruitment-wrapper">
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/pk.png"
+                  alt="Pakistan"
+                  loading="lazy"
+                />
+                <p>باكستان</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/in.png"
+                  alt="India"
+                  loading="lazy"
+                />
+                <p>الهند</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/bd.png"
+                  alt="Bangladesh"
+                  loading="lazy"
+                />
+                <p>بنجلاديش</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/ug.png"
+                  alt="Uganda"
+                  loading="lazy"
+                />
+                <p>أوغندا</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/ke.png"
+                  alt="Kenya"
+                  loading="lazy"
+                />
+                <p>كينيا</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/ph.png"
+                  alt="Philippines"
+                  loading="lazy"
+                />
+                <p>الفلبين</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/lk.png"
+                  alt="Sri Lanka"
+                  loading="lazy"
+                />
+                <p>سيريلانكا</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/bi.png"
+                  alt="Burundi"
+                  loading="lazy"
+                />
+                <p>بوروندي</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/et.png"
+                  alt="Ethiopia"
+                  loading="lazy"
+                />
+                <p>أثيوبيا</p>
+              </div>
+            </div>
+            <div class="swiper-slide mobile-recruitment-slide">
+              <div class="country-item">
+                <img
+                  src="https://flagcdn.com/w320/mr.png"
+                  alt="Mauritania"
+                  loading="lazy"
+                />
+                <p>موريتانيا</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add navigation buttons -->
+          <div class="swiper-button-next mobile-recruitment-next">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="swiper-button-prev mobile-recruitment-prev">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recruitment Filter -->
+    <section class="recruitment-filter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-delay="50">
+            <div class="filter-content">
+              <h3>الخدمة</h3>
+              <div class="custom-select-wrapper">
+                <select name="service" id="service" class="custom-select">
+                  <option value="" disabled selected>تحديد الخدمة</option>
+                  <option value="خدمات منزلية">خدمات منزلية</option>
+                  <option value="سائق">سائق</option>
+                </select>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="filter-content">
+              <h3>الدولة</h3>
+              <div class="custom-select-wrapper">
+                <select name="country" id="country" class="custom-select">
+                  <option value="" disabled selected>تحديد الدولة</option>
+                  <option value="كينيا">كينيا</option>
+                  <option value="أوغندا">أوغندا</option>
+                  <option value="بنجلاديش">بنجلاديش</option>
+                  <option value="الهند">الهند</option>
+                  <option value="باكستان">باكستان</option>
+                  <option value="موريتانيا">موريتانيا</option>
+                  <option value="أثيوبيا">أثيوبيا</option>
+                  <option value="بوروندي">بوروندي</option>
+                  <option value="سيريلانكا">سيريلانكا</option>
+                  <option value="الفلبين">الفلبين</option>
+                </select>
+
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="filter-content">
+              <h3>الخبرة</h3>
+              <div class="custom-select-wrapper">
+                <select name="experience" id="experience" class="custom-select">
+                  <option value="" disabled selected>تحديد الخبرة</option>
+                  <option value="0 سنوات">0 سنوات</option>
+                  <option value="2 سنوات">2 سنوات</option>
+                  <option value="3 سنوات">3 سنوات</option>
+                  <option value="5 سنوات">5 سنوات</option>
+                </select>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="filter-content">
+              <h3>الديانة</h3>
+              <div class="custom-select-wrapper">
+                <select name="religion" id="religion" class="custom-select">
+                  <option value="" disabled selected>تحديد الديانة</option>
+                  <option value="الإسلام">الإسلام</option>
+                  <option value="المسيحية">المسيحية</option>
+                </select>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="filter-content">
+              <h3>الجنسيه</h3>
+              <div class="custom-select-wrapper">
+                <select name="gender" id="gender" class="custom-select">
+                  <option value="" disabled selected>تحديد الجنسيه</option>
+                  <option value="رجل">رجل</option>
+                  <option value="انثي">انثي</option>
+                </select>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card Section -->
+    <section class="card-section">
+      <div class="container">
+        <div class="row d-flex" id="cards-container">
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="50"
+          >
+            <div
+              class="recruitment-card"
+              data-service="خدمات منزلية"
+              data-country="أوغندا"
+              data-experience="5 سنوات"
+              data-religion="الإسلام"
+              data-gender="انثي"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : انثي</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries1.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="150"
+          >
+            <div
+              class="recruitment-card"
+              data-service="خدمات منزلية"
+              data-country="موريتانيا"
+              data-experience="3 سنوات"
+              data-religion="الإسلام"
+              data-gender="انثي"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : انثي</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries2.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="250"
+          >
+            <div
+              class="recruitment-card"
+              data-service="خدمات منزلية"
+              data-country="أوغندا"
+              data-experience="5 سنوات"
+              data-religion="الإسلام"
+              data-gender="انثي"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : انثي</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries3.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="350"
+          >
+            <div
+              class="recruitment-card"
+              data-service="سائق"
+              data-country="الفلبين"
+              data-experience="3 سنوات"
+              data-religion="المسيحية"
+              data-gender="رجل"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : رجل</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries4.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="450"
+          >
+            <div
+              class="recruitment-card"
+              data-service="سائق"
+              data-country="كينيا"
+              data-experience="6 سنوات"
+              data-religion="الإسلام"
+              data-gender="رجل"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : رجل</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries5.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="550"
+          >
+            <div
+              class="recruitment-card"
+              data-service="خدمات منزلية"
+              data-country="بنجلاديش"
+              data-experience="7 سنوات"
+              data-religion="الإسلام"
+              data-gender="انثي"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : انثي</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries6.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="650"
+          >
+            <div
+              class="recruitment-card"
+              data-service="خدمات منزلية"
+              data-country="أوغندا"
+              data-experience="5 سنوات"
+              data-religion="الإسلام"
+              data-gender="انثي"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : انثي</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries7.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="750"
+          >
+            <div
+              class="recruitment-card"
+              data-service="خدمات منزلية"
+              data-country="أوغندا"
+              data-experience="5 سنوات"
+              data-religion="الإسلام"
+              data-gender="انثي"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : انثي</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries8.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="850"
+          >
+            <div
+              class="recruitment-card"
+              data-service="خدمات منزلية"
+              data-country="أوغندا"
+              data-experience="5 سنوات"
+              data-religion="الإسلام"
+              data-gender="انثي"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : انثي</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries9.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="850"
+          >
+            <div
+              class="recruitment-card"
+              data-service="خدمات منزلية"
+              data-country="سيريلانكا"
+              data-experience="5 سنوات"
+              data-religion="الإسلام"
+              data-gender="انثي"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : انثي</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/countries10.webp"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-6 card-item"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-duration="150"
+          >
+            <div
+              class="recruitment-card"
+              data-service="سائق"
+              data-country="أوغندا"
+              data-experience="5 سنوات"
+              data-religion="الإسلام"
+              data-gender="رجل"
+            >
+              <div class="recruitment-card-body">
+                <div class="recruitment-card-info">
+                  <p>الاسم : name</p>
+                  <p>العمر : 33</p>
+                  <p>الخبرة : 5 سنوات</p>
+                  <p>الديانة : الإسلام</p>
+                  <p>الجنس : رجل</p>
+                  <div class="recruitment-buttons">
+                    <a href="path/to/cv" class="cv-button">السيرة الذاتية</a>
+                    <a href="path/to/booking" class="book-btn">حجز</a>
+                  </div>
+                </div>
+                <div class="profile-picture">
+                  <img
+                    src="/images/countries/driver.png"
+                    alt="Profile Picture"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer-section">
+      <footer class="footer desktop-footer">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-3"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-offset="100"
+            >
+              <p class="footer-title">شركة جدوى للاستقدام</p>
+              <p>سجل تجاري: 2050123674</p>
+            </div>
+            <div class="col-lg-3" data-aos="fade-in" data-aos-duration="1000">
+              <p class="footer-title">روابط سريعة</p>
+              <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">عروض و اسعار الاستقدام</a></li>
+                <li><a href="#">طلب استقدام</a></li>
+                <li><a href="#">دول الاستقدام</a></li>
+                <li><a href="#">السير الذاتية</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3" data-aos="fade-in" data-aos-duration="1000">
+              <p class="footer-title">روابط تهمك</p>
+              <ul>
+                <li><a href="#">وزارة الخارجية</a></li>
+                <li><a href="#">البشر</a></li>
+                <li><a href="#">وزارة الموارد البشرية والتنمية</a></li>
+                <li><a href="#">مساند</a></li>
+                <li><a href="#">الجوازات</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3" data-aos="fade-in" data-aos-duration="1000">
+              <div class="footer-num">
+                <div class="footer-social">
+                  <a href="#" class="social-icon"
+                    ><i
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="100"
+                        height="100"
+                        viewBox="0,0,256,256"
+                      >
+                        <g
+                          fill="#309f88"
+                          fill-rule="nonzero"
+                          stroke="none"
+                          stroke-width="1"
+                          stroke-linecap="butt"
+                          stroke-linejoin="miter"
+                          stroke-miterlimit="10"
+                          stroke-dasharray=""
+                          stroke-dashoffset="0"
+                          font-family="none"
+                          font-weight="none"
+                          font-size="none"
+                          text-anchor="none"
+                          style="mix-blend-mode: normal"
+                        >
+                          <g transform="scale(5.12,5.12)">
+                            <path
+                              d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"
+                            ></path>
+                          </g>
+                        </g></svg></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="100"
+                        height="100"
+                        viewBox="0,0,256,256"
+                      >
+                        <g
+                          fill="#309f88"
+                          fill-rule="nonzero"
+                          stroke="none"
+                          stroke-width="1"
+                          stroke-linecap="butt"
+                          stroke-linejoin="miter"
+                          stroke-miterlimit="10"
+                          stroke-dasharray=""
+                          stroke-dashoffset="0"
+                          font-family="none"
+                          font-weight="none"
+                          font-size="none"
+                          text-anchor="none"
+                          style="mix-blend-mode: normal"
+                        >
+                          <g transform="scale(8.53333,8.53333)">
+                            <path
+                              d="M26.37,26l-8.795,-12.822l0.015,0.012l7.93,-9.19h-2.65l-6.46,7.48l-5.13,-7.48h-6.95l8.211,11.971l-0.001,-0.001l-8.66,10.03h2.65l7.182,-8.322l5.708,8.322zM10.23,6l12.34,18h-2.1l-12.35,-18z"
+                            ></path>
+                          </g>
+                        </g></svg></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </div>
+                <h5>الرقم الموحد</h5>
+                <p class="footer-number">920029877</p>
+              </div>
+            </div>
+            <div
+              class="footer-copyrights"
+              data-aos="fade-in"
+              data-aos-duration="1200"
+            >
+              <div class="footer-line">
+                <img
+                  loading="lazy"
+                  src="../images/logo/footer-logo.png"
+                  alt="jadwa footer logo"
+                />
+                <div class="border-left"></div>
+                <p>جميع الحقوق محفوظة</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- mobile footer -->
+      <div
+        class="footer py-4 mobile-footer"
+        data-aos="fade-in"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+      >
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-8"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <p class="footer-title mb-0">شركة جدوى للاستقدام</p>
+              <p>سجل تجاري: 0000000000</p>
+            </div>
+            <div
+              class="col-4"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <img
+                loading="lazy"
+                src="../images/logo/footer-logo.png"
+                class="footer-logo"
+                alt="jadwa footer logo"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-6"
+              data-aos="fade-in"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            >
+              <p class="footer-title">روابط سريعة</p>
+              <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">عروض و اسعار الاستقدام</a></li>
+                <li><a href="#">طلب استقدام</a></li>
+                <li><a href="#">دول الاستقدام</a></li>
+                <li><a href="#">السير الذاتية</a></li>
+              </ul>
+            </div>
+            <div
+              class="col-6"
+              data-aos="fade-in"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            >
+              <div class="footer-num">
+                <div class="footer-social">
+                  <a href="#" class="social-icon"
+                    ><i
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="100"
+                        height="100"
+                        viewBox="0,0,256,256"
+                      >
+                        <g
+                          fill="#309f88"
+                          fill-rule="nonzero"
+                          stroke="none"
+                          stroke-width="1"
+                          stroke-linecap="butt"
+                          stroke-linejoin="miter"
+                          stroke-miterlimit="10"
+                          stroke-dasharray=""
+                          stroke-dashoffset="0"
+                          font-family="none"
+                          font-weight="none"
+                          font-size="none"
+                          text-anchor="none"
+                          style="mix-blend-mode: normal"
+                        >
+                          <g transform="scale(5.12,5.12)">
+                            <path
+                              d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"
+                            ></path>
+                          </g>
+                        </g></svg></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="100"
+                        height="100"
+                        viewBox="0,0,256,256"
+                      >
+                        <g
+                          fill="#309f88"
+                          fill-rule="nonzero"
+                          stroke="none"
+                          stroke-width="1"
+                          stroke-linecap="butt"
+                          stroke-linejoin="miter"
+                          stroke-miterlimit="10"
+                          stroke-dasharray=""
+                          stroke-dashoffset="0"
+                          font-family="none"
+                          font-weight="none"
+                          font-size="none"
+                          text-anchor="none"
+                          style="mix-blend-mode: normal"
+                        >
+                          <g transform="scale(8.53333,8.53333)">
+                            <path
+                              d="M26.37,26l-8.795,-12.822l0.015,0.012l7.93,-9.19h-2.65l-6.46,7.48l-5.13,-7.48h-6.95l8.211,11.971l-0.001,-0.001l-8.66,10.03h2.65l7.182,-8.322l5.708,8.322zM10.23,6l12.34,18h-2.1l-12.35,-18z"
+                            ></path>
+                          </g>
+                        </g></svg></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </div>
+                <h5 class="text-end">الرقم الموحد</h5>
+                <p class="footer-number">920029877</p>
+              </div>
+            </div>
+            <div
+              class="col-6"
+              data-aos="fade-in"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            >
+              <p class="footer-title">روابط تهمك</p>
+              <ul>
+                <li><a href="#">وزارة الخارجية</a></li>
+                <li><a href="#">البشر</a></li>
+                <li><a href="#">وزارة الموارد البشرية والتنمية</a></li>
+                <li><a href="#">مساند</a></li>
+                <li><a href="#">الجوازات</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="footer-mobile-copyrights aos-animate"
+            data-aos="fade-in"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
+            <div class="border"></div>
+            <p>جميع الحقوق محفوظة</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  </body>
+</html>
